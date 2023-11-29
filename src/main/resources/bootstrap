@@ -1,0 +1,5 @@
+spring.application.name=product-ms
+spring.cloud.config.uri=http://localhost:7000
+spring.cloud.config.name= configserver
+# It redirect the client service to read productws.propertie file from github repo or local filesystem as you specified.
+#spring.cloud.config.name=productws
